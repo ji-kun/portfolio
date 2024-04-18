@@ -1,0 +1,127 @@
+.experience_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.experience_photo {
+  height: 20rem;
+  width: 20rem;
+}
+
+.experience_texts {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 4rem;
+}
+
+.name {
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  color: #EF6D58;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 0.8rem;
+  padding: 1.2rem;
+  width: 18rem;
+  background: #32334C;
+  border-radius: 0.1rem;
+  background: rgba( 50, 51, 76, 0.25 );
+  box-shadow: 0 4px 4px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
+}
+
+.company_image {
+  margin-bottom: 0.8rem;
+}
+
+.card_header {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 0.8rem;
+  color: #d3d3d3;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card:hover {
+ transform: scale(1.02);
+}
+
+.link {
+  text-decoration: none;
+  float: right;
+  color: #EF6D58;
+}
+
+@media only screen and (max-width: 1100px) {
+  .experience_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  
+  .experience_photo {
+    height: 15rem;
+    width: 15rem;
+  }
+  
+  .experience_texts {
+    width: 90%;
+  }
+  
+  .card_container {
+    width: 100%;
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin-top: 0.8rem;
+    padding: 1.2rem;
+    width: 90%;
+    background: #32334C;
+    border-radius: 0.1rem;
+    background: rgba( 50, 51, 76, 0.25 );
+    box-shadow: 0 4px 4px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+  }
+  
+  .card_header {
+    height: unset;
+    font-size: 1.2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+
+  .link {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+  }
+}
